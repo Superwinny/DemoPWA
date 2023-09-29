@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:github": "ng deploy --base-href=/DemoPWA/ --repo=https://github.com/Superwinny/DemoPWA.git --name=Superwinny --email=dos.davide91@gmail.com--no-silent"
+    "deploy:github": "ng deploy --base-href=/DemoPWA/ --repo=https://github.com/Superwinny/DemoPWA.git --name=Superwinny --email=dos.davide91@gmail.com --no-silent"
   },
   "private": true,
   "dependencies": {
