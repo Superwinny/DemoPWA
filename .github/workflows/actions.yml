@@ -24,6 +24,8 @@ jobs:
     - run: npm ci
    # - run: npm test
     - run: npm run deploy:github --if-present
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       env:
         CI: true
